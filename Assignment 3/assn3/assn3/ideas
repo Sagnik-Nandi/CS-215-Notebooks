@@ -1,0 +1,8 @@
+Is there any other way I could select features? Could I e.g. run a random forest and use a feature importance report from that to also select the most important features? Then run a regression?
+
+Use MSE, R^2 mainly
+
+Consider playing around with LASSO or Ridge-regressions, as these punish features with low predictive power. These are simple and strong methods for linear purposes.
+
+https://en.wikipedia.org/wiki/Stepwise_regression
+
